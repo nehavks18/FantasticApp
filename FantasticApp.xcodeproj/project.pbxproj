@@ -14,6 +14,7 @@
 		91F4422F207C80FA00033E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91F4422D207C80FA00033E01 /* LaunchScreen.storyboard */; };
 		91F4423A207C80FA00033E01 /* FantasticAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F44239207C80FA00033E01 /* FantasticAppTests.swift */; };
 		91F44245207C80FB00033E01 /* FantasticAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F44244207C80FB00033E01 /* FantasticAppUITests.swift */; };
+		91F44253207C811D00033E01 /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F44252207C811D00033E01 /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		91F44240207C80FB00033E01 /* FantasticAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91F44244207C80FB00033E01 /* FantasticAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticAppUITests.swift; sourceTree = "<group>"; };
 		91F44246207C80FB00033E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91F44252207C811D00033E01 /* FantasticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				91F4422B207C80FA00033E01 /* Assets.xcassets */,
 				91F4422D207C80FA00033E01 /* LaunchScreen.storyboard */,
 				91F44230207C80FA00033E01 /* Info.plist */,
+				91F44252207C811D00033E01 /* FantasticView.swift */,
 			);
 			path = FantasticApp;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				91F44227207C80FA00033E01 /* ViewController.swift in Sources */,
 				91F44225207C80FA00033E01 /* AppDelegate.swift in Sources */,
+				91F44253207C811D00033E01 /* FantasticView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

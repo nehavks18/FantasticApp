@@ -9,10 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var viewShow: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let fantasticView = FantasticView(frame :self.view.bounds)
+        self.viewShow.addSubview(fantasticView)
     }
 
     override func didReceiveMemoryWarning() {
